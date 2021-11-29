@@ -44,7 +44,7 @@ Financial-Time-Series
   - # jupyter-contrib nbextension install --user --skip-running-check
 
 
-# Mac下Anaconda的安装和使用】
+# Mac下Anaconda的安装和使用
 ## 1. 官网下载安装包
   - https://www.anaconda.com/products/individual#macos
 ## 2. 命令行安装
