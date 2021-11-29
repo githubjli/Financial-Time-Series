@@ -46,7 +46,9 @@ Financial-Time-Series
 
 # Mac下Anaconda的安装和使用
 ## 1. 官网下载安装包
-  - https://www.anaconda.com/products/individual#macos
+```
+  https://www.anaconda.com/products/individual#macos
+```
 ## 2. 命令行安装
   - $ bash ~/Downloads/Anaconda3-5.3.1-MacOSX-x86_64.sh
 ## 3. 重启终端使新加的环境变量生效
