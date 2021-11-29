@@ -26,87 +26,87 @@ Financial-Time-Series
 
 # mac安装Jupyter
 ## 1. mac自带python2.7，需要的环境python3 --命令提示有忽略
-   # curl https://bootstrap.pypa.io/get-pip.py | python3
+  - # curl https://bootstrap.pypa.io/get-pip.py | python3
 ## 2. 先安装pip和ipython --命令提示有忽略
-   # sudo easy_install pip
-   # sudo pip install ipython
+  - # sudo easy_install pip
+  - # sudo pip install ipython
 ## 3. ipython-notebook已经整合，python3安装命令
-   # pip3 install --user jupyter
+  - # pip3 install --user jupyter
 ## 4. Jupyter使用
-   # python3.7 -m IPython notebook
-   或者
-   # python3 -m IPython notebook
+  - # python3.7 -m IPython notebook
+  - 或者
+  - # python3 -m IPython notebook
 ## 5. 浏览器中会弹出notebook窗口
-   http://localhost:8889/tree
+  - http://localhost:8889/tree
 ## 6. Jupyter Notebook 添加目录插件
-   # pip3 install jupyter_contrib_nbextensions
-   配置
-   # jupyter-contrib nbextension install --user --skip-running-check
+  - # pip3 install jupyter_contrib_nbextensions
+  - 配置
+  - # jupyter-contrib nbextension install --user --skip-running-check
 
 
 # Mac下Anaconda的安装和使用】
 ## 1. 官网下载安装包
-   https://www.anaconda.com/products/individual#macos
+  - https://www.anaconda.com/products/individual#macos
 ## 2. 命令行安装
-   $ bash ~/Downloads/Anaconda3-5.3.1-MacOSX-x86_64.sh
+  - $ bash ~/Downloads/Anaconda3-5.3.1-MacOSX-x86_64.sh
 ## 3. 重启终端使新加的环境变量生效
-   $ source ~/.bash_profile
+  - $ source ~/.bash_profile
 ## 4. 常用命令
-   查看conda版本
-   $ conda --version
-   更新conda版本
-   $ conda update conda
-   查看都安装了那些依赖库
-   $ conda list
-   创建新的python环境
-   $ conda create --name myenv
-   并且还可以指定python的版本
-   $ conda create -n myenv python=3.7
-   $ conda create -n myenv python=3
-   创建新环境并指定包含的库
-   $ conda create -n myenv scipy
-   并且还可以指定库的版本
-   $ conda create -n myenv scipy=0.15.0
-   复制环境
-   $ conda create --name myclone --clone myenv
-   查看是不是复制成功了
-   $ conda info --envs
-   激活、进入某个环境
-   $ source activate myenv
-   退出环境
-   $ source deactivate
-   删除环境
-   $ conda remove --name myenv --all
-   查看当前的环境列表
-   $ conda info --envs or $ conda env list
-   查看某个环境下安装的库
-   $ conda list -n myenv
-   查找包
-   $ conda search XXX
-   安装包
-   $ conda install XXX
-   更新包
-   $ conda update XXX
-   删除包
-   $ conda remove XXX
-   安装到指定环境
-   $ conda install -n myenv XXX
+  - 查看conda版本
+  - $ conda --version
+  - 更新conda版本
+  - $ conda update conda
+  - 查看都安装了那些依赖库
+  - $ conda list
+  - 创建新的python环境
+  - $ conda create --name myenv
+  -  并且还可以指定python的版本
+  - $ conda create -n myenv python=3.7
+  - $ conda create -n myenv python=3
+  - 创建新环境并指定包含的库
+  - $ conda create -n myenv scipy
+  - 并且还可以指定库的版本
+  - $ conda create -n myenv scipy=0.15.0
+  - 复制环境
+  - $ conda create --name myclone --clone myenv
+  - 查看是不是复制成功了
+  - $ conda info --envs
+  - 激活、进入某个环境
+  - $ source activate myenv
+  - 退出环境
+  - $ source deactivate
+  - 删除环境
+  - $ conda remove --name myenv --all
+  - 查看当前的环境列表
+  - $ conda info --envs or $ conda env list
+  - 查看某个环境下安装的库
+  - $ conda list -n myenv
+  - 查找包
+  - $ conda search XXX
+  - 安装包
+  - $ conda install XXX
+  - 更新包
+  - $ conda update XXX
+  - 删除包
+  - $ conda remove XXX
+  - 安装到指定环境
+  - $ conda install -n myenv XXX
 ## 5. conda 换源：
-    https://mirror.tuna.tsinghua.edu.cn/help/anaconda/
-    https://www.jianshu.com/p/042fd657e2d4
-    https://www.cnblogs.com/yikemogutou/p/11396045.html
+  -  https://mirror.tuna.tsinghua.edu.cn/help/anaconda/
+  -  https://www.jianshu.com/p/042fd657e2d4
+  -  https://www.cnblogs.com/yikemogutou/p/11396045.html
 ## 6. conda 环境管理：
-    https://www.jianshu.com/p/d2e15200ee9b
+  -  https://www.jianshu.com/p/d2e15200ee9b
 ## 7. 安装数据相关包
-   $ conda install pandas
-   $ conda install keras
-   $ conda install scikit-learn
-   $ pip3 install tushare
-   $ brew install ta-lib
-   $ pip3 install Ta-Lib
-   $ pip3 install mpl_finance
-   $ pip3 install scikit-plot
-   $ pip3 install jqdatasdk
-   $ pip3 install dtaidistance
-   $ pip3 install statsmodels
+  - $ conda install pandas
+  - $ conda install keras
+  - $ conda install scikit-learn
+  - $ pip3 install tushare
+  - $ brew install ta-lib
+  - $ pip3 install Ta-Lib
+  - $ pip3 install mpl_finance
+  - $ pip3 install scikit-plot
+  - $ pip3 install jqdatasdk
+  - $ pip3 install dtaidistance
+  - $ pip3 install statsmodels
 
